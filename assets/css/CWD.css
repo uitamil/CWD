@@ -3,8 +3,8 @@
 --------------------------------------------------------------*/
 
 :root {
-  --CWD-font: 'Plus Jakarta Sans', sans-serif;
-  --heading-font: 'Plus Jakarta Sans', sans-serif;
+  --CWD-font:  "Mulish", sans-serif;
+  --heading-font:  "Merriweather", serif;
   --CWD-color: #1b75bb;
   --CWD-base:  #01abec;
   --CWD-base2:#64bbff;
@@ -21,7 +21,6 @@
   --CWD-blue2:#084a64;
 
 }
-
 
 .mt-20 {
   margin-top: 20px;
@@ -3978,10 +3977,10 @@ h6 {
 }
 
 .service-one__item__title {
-  font-size: 18px;
+  font-size: 25px;
   letter-spacing: -.72px;
   line-height: 24px;
-  max-width: 135px;
+  /* max-width: 135px; */
   margin: 0 0 19px;
 }
 
@@ -8157,6 +8156,7 @@ card-slider-section { --border-radius: 10px; --transition-duration: 1000ms; heig
 .service-description p{
   color: rgba(var(--CWD-black-rgb)) ;
   text-align: justify;
+  line-height: 30px;
 }
 span.icon-service {
   display: block;
@@ -8178,4 +8178,6 @@ span.icon-service img {
 }
 .item__icon {
   margin-bottom: 20px;
+  display:none;
 }
+
