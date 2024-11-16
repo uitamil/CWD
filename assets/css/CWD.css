@@ -8181,3 +8181,28 @@ span.icon-service img {
   display:none;
 }
 
+.row.service-row{
+  position: relative;
+}
+
+.row.service-row:nth-child(even):before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: -100px;
+  top: -40px;
+  background: rgb(0 123 174);
+  border-radius: 36px 0px 0px;
+}
+
+.row.service-row:nth-child(odd):before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  right: -100px;
+  top: -40px;
+  background: rgb(0 123 174);
+  border-radius: 0px 36px 0px;
+}
